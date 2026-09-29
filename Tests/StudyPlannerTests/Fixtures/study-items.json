@@ -1,0 +1,23 @@
+[
+  {
+    "id": "swift-chapter-1",
+    "title": "Read Swift concurrency chapter",
+    "estimatedMinutes": 45,
+    "category": "reading",
+    "isCompleted": false
+  },
+  {
+    "id": "collections-drill",
+    "title": "Practice collection transformations",
+    "estimatedMinutes": 30,
+    "category": "practice",
+    "isCompleted": true
+  },
+  {
+    "id": "planner-milestone",
+    "title": "Build study planner milestone",
+    "estimatedMinutes": 90,
+    "category": "project",
+    "isCompleted": false
+  }
+]

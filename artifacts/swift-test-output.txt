@@ -1,0 +1,49 @@
+Building for debugging...
+[0/2] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.12s)
+Test Suite 'All tests' started at 2026-09-27 12:35:48.178.
+Test Suite 'StudyPlannerPackageTests.xctest' started at 2026-09-27 12:35:48.179.
+Test Suite 'StudyPlannerPublicTests' started at 2026-09-27 12:35:48.179.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testBlankTitleIsRejected]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testBlankTitleIsRejected]' passed (0.002 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testIncompleteMinutesAndCompletion]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testIncompleteMinutesAndCompletion]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testValidItemStoresValues]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testValidItemStoresValues]' passed (0.000 seconds).
+Test Suite 'StudyPlannerPublicTests' passed at 2026-09-27 12:35:48.182.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'StudyPlannerStudentTests' started at 2026-09-27 12:35:48.182.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testFirstDuplicateIDIsReported]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testFirstDuplicateIDIsReported]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testImportMergingRejectsDuplicateIncomingIDsWithoutChangingPlan]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testImportMergingRejectsDuplicateIncomingIDsWithoutChangingPlan]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testImportMergingReplacesAtCurrentPositionAndAppendsNewInAscendingIDOrder]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testImportMergingReplacesAtCurrentPositionAndAppendsNewInAscendingIDOrder]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testItemsAreOrderedByTitleThenID]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testItemsAreOrderedByTitleThenID]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testItemsInCategoryFiltersCorrectly]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testItemsInCategoryFiltersCorrectly]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testKeyedStudyPlanDecoding]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testKeyedStudyPlanDecoding]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testMarkCompletedIsIdempotent]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testMarkCompletedIsIdempotent]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testMarkCompletedWithUnknownIDThrows]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testMarkCompletedWithUnknownIDThrows]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testNonPositiveEstimatedMinutesIsRejected]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testNonPositiveEstimatedMinutesIsRejected]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testTitleValidationTakesPrecedenceOverMinutes]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testTitleValidationTakesPrecedenceOverMinutes]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testTopLevelJSONArrayDecoding]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testTopLevelJSONArrayDecoding]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testValidatedStudyItemDecodingRejectsInvalidJSON]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerStudentTests testValidatedStudyItemDecodingRejectsInvalidJSON]' passed (0.000 seconds).
+Test Suite 'StudyPlannerStudentTests' passed at 2026-09-27 12:35:48.185.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'StudyPlannerPackageTests.xctest' passed at 2026-09-27 12:35:48.185.
+	 Executed 15 tests, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'All tests' passed at 2026-09-27 12:35:48.185.
+	 Executed 15 tests, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
